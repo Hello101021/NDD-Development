@@ -1,0 +1,14 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		665 6672 
+	}
+	manpower=10
+	state_category=rural
+	history = {
+		owner = HUN
+		add_core_of = HUN
+	}
+	buildings_max_level_factor=1.000
+}

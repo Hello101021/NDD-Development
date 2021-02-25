@@ -1,0 +1,14 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		3660 6675 9630 11615 
+	}
+	manpower=10
+	state_category=pastoral
+	history = {
+		owner = GER
+		add_core_of = GER
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=815
+	name="STATE_815"
+	state_category = metropolis
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+			11830 = {
+				naval_base = 4
+
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			11830 5
+		}
+	}
+	provinces={
+		11830 
+	}
+	manpower=855000
+	buildings_max_level_factor=1.000
+}

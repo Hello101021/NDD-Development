@@ -1,0 +1,140 @@
+ideologies = {
+##########################################
+## Communist Ideologies 
+##########################################
+
+
+	### Stalinism
+	marxist_leninist = {		
+		types = {
+			marxism_leninism = {}
+			NDD_stalinism = { can_be_randomly_selected = no }
+			maoism = { can_be_randomly_selected = no }	#Hoism
+			juche = { can_be_randomly_selected = no }
+			conservative_communism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 65 0 0 }
+		
+		war_impact_on_world_tension = 0.75		
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		can_be_boosted = no
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no			
+			can_create_factions = no		
+			can_create_collaboration_government = no	
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			join_faction_tension = 0.80
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		faction_modifiers = {
+			
+		}
+	}
+
+### Bolshevik-Leninism
+	revolutionary_communist = {		
+		types = {
+			trotskyism = {}
+			syndicalism = { }
+			national_bolshevism = {}
+			NDD_anarchism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+		}
+		
+		color = { 150 0 0 }
+		
+		war_impact_on_world_tension = 0.75		
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		can_be_boosted = no
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no			
+			can_create_factions = no	
+			can_create_collaboration_government = no		
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			join_faction_tension = 0.80
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		faction_modifiers = {	
+		}
+	}
+	### Left-Wing Radicals
+	socialist = {		
+		types = {
+			agrarian_socialism = {}
+			radical_socialism = {}
+			labor_zionism = { can_be_randomly_selected = no }
+			democratic_socialism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		can_be_boosted = no
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no			
+			can_create_factions = no		
+			can_create_collaboration_government = no	
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			join_faction_tension = 0.80
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		
+		faction_modifiers = {	
+		}
+	}
+}

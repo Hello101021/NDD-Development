@@ -1,0 +1,131 @@
+ideologies = {
+##########################################
+## Fascist Ideologies 
+##########################################
+
+
+### Authoritarian	
+	authoritarian = {
+		types = {	
+			authoritarian_democracy = {}
+			NDD_theocracy = { can_be_randomly_selected = no }
+			NDD_despotism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+		}
+		
+		color = { 100 100 100 }
+		
+		war_impact_on_world_tension = 0.75			
+		faction_impact_on_world_tension = 0.75
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no			
+			can_create_factions = no	
+			can_create_collaboration_government = no		
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			join_faction_tension = 0.80
+			send_volunteers_tension = 0.30
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+### Fascism
+	fascist = {	
+		types = {			
+			NDD_fascism = {}
+			corporatism = { can_be_randomly_selected = no }
+			integralism = { can_be_randomly_selected = no }
+			legionarism = { can_be_randomly_selected = no }
+			NDD_falangism = { can_be_randomly_selected = no }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+		
+		color = { 40 40 40 }
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no			
+			can_create_factions = no	
+			can_create_collaboration_government = no		
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			join_faction_tension = 0.80
+			send_volunteers_tension = 0.30
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		can_be_boosted = no
+	}
+	
+
+	### National Socialism
+	national_socialist = {
+		types = {	
+			national_socialism = {}
+			strasserism = { can_be_randomly_selected = no }
+			baathism = { can_be_randomly_selected = no }
+			esoteric_national_socialism = { can_be_randomly_selected = no }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+		}
+		
+		color = { 0 0 0 }
+		
+		war_impact_on_world_tension = 1.0			
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no		
+			can_create_factions = no	
+			can_create_collaboration_government = no		
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			join_faction_tension = 0.80
+			send_volunteers_tension = 0.30
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+}

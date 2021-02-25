@@ -1,0 +1,167 @@
+{
+	containerWindowType = {
+		name = "USA_dosmetic_container"
+		size = { width = 850 height = 600 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		containerWindowType = {
+			name = "USA_sphere_container"
+			size = { width = 850 height = 600 }
+			position = { x = 40 y = 20 }
+			scale = 0.5
+
+			iconType = {
+				name = "USA_sphere_bg"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_USA_sphere_bg"
+			}
+			iconType = {
+				name = "JAP_sphere_BRM"
+				position = { x = 0 y = 477 }
+				spriteType = "GFX_JAP_sphere_BRM"
+				pdx_tooltip = "JAP_sphere_BRM_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_INS"
+				position = { x = 47 y = 850 }
+				spriteType = "GFX_JAP_sphere_INS"
+				pdx_tooltip = "JAP_sphere_INS_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_andaman"
+				position = { x = 3 y = 724 }
+				spriteType = "GFX_JAP_sphere_andaman"
+				pdx_tooltip = "JAP_sphere_andaman_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_BRU"
+				position = { x = 247 y = 827 }
+				spriteType = "GFX_JAP_sphere_BRU"
+				pdx_tooltip = "JAP_sphere_BRU_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_JAP"
+				position = { x = 529 y = 77 }
+				spriteType = "GFX_JAP_sphere_JAP"
+				pdx_tooltip = "JAP_sphere_JAP_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_KOR"
+				position = { x = 501 y = 212 }
+				spriteType = "GFX_JAP_sphere_KOR"
+				pdx_tooltip = "JAP_sphere_KOR_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_MAL"
+				position = { x = 123 y = 837 }
+				spriteType = "GFX_JAP_sphere_MAL"
+				pdx_tooltip = "JAP_sphere_MAL_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_MAN"
+				position = { x = 364 y = 0 }
+				spriteType = "GFX_JAP_sphere_MAN"
+				pdx_tooltip = "JAP_sphere_MAN_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_PHI"
+				position = { x = 387 y = 629 }
+				spriteType = "GFX_JAP_sphere_PHI"
+				pdx_tooltip = "JAP_sphere_PHI_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_chinese_concessions"
+				position = { x = 257 y = 279 }
+				spriteType = "GFX_JAP_sphere_chinese_concessions"
+				pdx_tooltip = "JAP_sphere_chinese_concessions_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_CHI"
+				position = { x = 169 y = 252 }
+				spriteType = "GFX_JAP_sphere_CHI"
+				pdx_tooltip = "JAP_sphere_CHI_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_MEN"
+				position = { x = 187 y = 132 }
+				spriteType = "GFX_JAP_sphere_MEN"
+				pdx_tooltip = "JAP_sphere_MEN_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_PNG"
+				position = { x = 579 y = 939 }
+				spriteType = "GFX_JAP_sphere_PNG"
+				pdx_tooltip = "JAP_sphere_PNG_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_SIA"
+				position = { x = 84 y = 612 }
+				spriteType = "GFX_JAP_sphere_SIA"
+				pdx_tooltip = "JAP_sphere_SIA_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_singapore"
+				position = { x = 173 y = 916 }
+				spriteType = "GFX_JAP_sphere_singapore"
+				pdx_tooltip = "JAP_sphere_singapore_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_VIN"
+				position = { x = 124 y = 562 }
+				spriteType = "GFX_JAP_sphere_VIN"
+				pdx_tooltip = "JAP_sphere_VIN_tt"
+			}
+			iconType = {
+				name = "JAP_sphere_outline"
+				position = { x = -60 y = -18 }
+				spriteType = "GFX_JAP_sphere_outline"
+				alwaystransparent = yes
+			}
+		}
+
+		buttonType = {
+			name = "JAP_open_genro_button"
+			position = { x = 550 y = 100 }
+			quadTextureSprite = "GFX_JAP_gui_button"
+			text = "Open Genro GUI"
+			buttonFont = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "JAP_open_zaibatsu_button"
+			position = { x = 550 y = 200 }
+			quadTextureSprite = "GFX_JAP_gui_button"
+			text = "Open Zaibatsu GUI"
+			buttonFont = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "JAP_open_IJA_IJN_button"
+			position = { x = 550 y = 300 }
+			quadTextureSprite = "GFX_JAP_gui_button"
+			text = "Open IJA-IJN GUI"
+			buttonFont = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "JAP_open_seiyukai_button"
+			position = { x = 550 y = 400 }
+			quadTextureSprite = "GFX_JAP_gui_button"
+			text = "Open Seiyukai GUI"
+			buttonFont = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "JAP_domestic_close_button"
+			position = { x = 815 y = 3 }
+			quadTextureSprite = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

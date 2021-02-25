@@ -1,0 +1,103 @@
+﻿l_english:
+ ### North America
+ # CAN - Canada
+ CAN_UK: "Dominion of Canada"
+ CAN: "Canada"
+ 
+ # USA - United States
+ USA: "United States of America"
+ # Free States and Sponsored Regimes
+ TRI_USA: "Lesser Antilles"
+ GYA_USA: "Republic of Guyana"
+
+ # MEX - Mexico
+ MEX: "United Mexican States"
+ 
+ # Central America and the Caribbean
+ CTA: "Federal Republic of Central America"
+ CUB_socialist: "Socialist Republic of Cuba"
+ # Cosmetic
+
+ ### South America
+ # Countries
+ COL: "Republic of Colombia"
+ ECU: "Republic of Ecuador"
+ PRU: "Republic of Peru"
+ VEN: "Bolivarian Republic of Venezuela"
+ CHL: "Republic of Chile"
+ BOL: "Plurinational Republic of Bolivia"
+ PAR: "Republic of Paraguay"
+ ARG_marxist_leninist: "Argentine Commune"
+ URG: "Oriental Republic of Uruguay"
+ # Cosmetic
+
+ # Brazil
+ BRA: "Federative Republic of Brazil"
+
+ ### Europe
+ # GER - Germany
+ GER_national_socialist: "Großdeutsches Reich"
+ GER_national_socialist_DEF: "Das Großdeutsches Reich"
+ GER_national_socialist_ADJ: "German"
+ # Reichskommissariats
+ HOL_GER: "Reichskommissariat Westland"
+ OTL: "Ostland"
+ OTL_GER: "Reichskommissariat Ostland"
+ CAU: "Caucasus"
+ CAU_GER: "Reichskommissariat Kaukasus"
+ UKR_GER: "Reichskommissariat Ukraine"
+ MOS: "Moscow"
+ MOS_GER: "Reichskommissariat Moskowien"
+ NOR_GER: "Reichskommissariat Norwegen"
+ TKE: "Turkestan"
+ TKE_GER: "Reichskommissariat Turkestan"
+ # Reichsprotektorats
+ SLO_GER: "Reichsprotektorat Slowakei"
+ POL_GER: "Reichsprotektorat Polen"
+ # Satellites and Territories
+ 
+ # ITA - Italy
+ ITA_imperial': "Italian Empire"
+ ITA_imperial_DEF: "Italian Empire"
+ # Italian Associates
+ CRO_ITA: "Independent State of Croatia"
+ CRO_ITA_DEF: "The Independent State of Croatia"
+ GRE_ITA: "Hellenic State"
+ GRE_ITA_DEF: "The Hellenic State"
+ EGY_ITA: "Kingdom of Egypt"
+ EGY_ITA_DEF: "The Kingdom of Egypt"
+ IRQ_ITA: "Kingdom of Iraq"
+ IRQ_ITA_DEF: "The Kingdom of Iraq"
+ # Italian Colonies
+ LEV_ITA: "Territorio Coloniale Levantino"
+ LEV_ITA_DEF: "The Territorio Coloniale Levantino"
+ ETH_ITA: "Territorio Coloniale dell'Africa Orientale"
+ ETH_ITA_DEF: "The Territorio Coloniale dell'Africa Orientale"
+ CAR_ITA: "Territorio Coloniale Centrafricano"
+ CAR_ITA_DEF: "The Territorio Coloniale Centrafricano"
+
+ # ENG - The United Kingdom
+ ENG_authoritarian: "United Kingdom"
+ ENG_authoritarian_DEF: "The United Kingdom"
+ 
+ # FRA - France
+ FRA_authoritarian: "French State"
+ FRA_authoritarian_DEF: "The French State"
+
+ # Russia
+ UAR: "United All-Russian Government"
+ 
+ # Other States
+ SWE: "Kingdom of Sweden"
+ FIN: "Republic of Finland"
+
+ IRE: "Republic of Ireland"
+ POR: "Republic of Portugal"
+ SPR: "Spanish State"
+
+ HUN: "Kingdom of Hungary"
+ ROM: "Kingdom of Romania"
+ SER: "Serbia"
+ 
+ ### Asia Minor and the Middle East 
+ TUR: "Republic of Turkey"
